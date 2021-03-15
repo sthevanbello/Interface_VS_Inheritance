@@ -8,8 +8,8 @@ namespace InterfaceVSInheritance
     {
         static void Main(string[] args)
         {
-            Shape shape1 = new Rectangle() {Width = 3.5, Height = 4.2, Color = Color.Black };
-            Shape shape2 = new Circle() { Radius = 2.0, Color = Color.White};
+            IShape shape1 = new Rectangle() {Width = 3.5, Height = 4.2, Color = Color.Black };
+            IShape shape2 = new Circle() { Radius = 2.0, Color = Color.White};
 
 
             Console.WriteLine($"Rectangle: \n{shape1}");

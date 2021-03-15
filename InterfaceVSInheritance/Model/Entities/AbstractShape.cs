@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceVSInheritance.Model.Entities
 {
-    abstract class Shape
+    abstract class AbstractShape : IShape
     {
         public Color Color { get; set; }
 
